@@ -1,10 +1,8 @@
 #Demo 2
 
-Text
+This Demo is used to upload file from local machine to Github
 
-This Demo is to upload file from local machine to Github
-
-Step by Step Guide
+##Step by Step Guide
 
 1. run `git init` in the directory of the folder
 2. run `git status` to track status
@@ -14,8 +12,10 @@ Step by Step Guide
 Note that the changes so far only done locally, to make it live you will need to create a new repository on Github
 6. Go to Github create a new repository, copy the link e.g. https://github.com/mlggg/demo-repo2.git
 7. run `git remote add origin https://github.com/mlggg/demo-repo2.git` -> remote means somewhere else but not on this computer, refering to Github
-8. Check using `git remote -v`,it will show any remote repository connected to this repo
+8. Check using `git remote -v`, it will show any remote repository connected to this repo
 9. run `git push origin master` to upload to Github
+
+** after `git add` must run `git commit` then can `git push`
 
 To set an upstream `git push -u origin master`, in the future just run `git push`
 
