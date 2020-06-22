@@ -20,3 +20,10 @@ Note that the changes so far only done locally, to make it live you will need to
 To set an upstream `git push -u origin master`, in the future just run `git push`
 
 The -u option automatically sets that upstream for you, linking your repo to a central one. That way, in the future, Git "knows" where you want to push to and where you want to pull from, so you can use git pull or git push without arguments.
+
+#Demo 3
+ This is to fork a repo from Github
+
+ 1. Fork the repo on Github
+ 2. Clone the URL from Github
+ 3. run `Git clone URL` to clone the file to local machine
